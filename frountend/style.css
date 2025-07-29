@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header {
+  background: #222;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  background: url('images/gym-banner.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 40px 20px;
+  background: white;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
