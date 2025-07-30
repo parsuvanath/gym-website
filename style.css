@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('images/gym-banner.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.class-container, .trainer-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.class-card, .trainer-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.class-card img, .trainer-card img, .about img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #000;
+  padding: 40px;
+  text-align: center;
+}
