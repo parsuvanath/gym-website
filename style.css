@@ -71,3 +71,31 @@ footer {
   padding: 40px;
   text-align: center;
 }
+
+/* 🔴 ADDED: Contact form styles (NEW) */
+footer input,
+footer textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+footer textarea {
+  height: 80px;
+}
+
+footer button {
+  background: red;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background: darkred;
+}
